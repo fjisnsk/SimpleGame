@@ -53,7 +53,7 @@ bool HelloWorld::init()
 	bool bRet = false;
 	do 
 	{
-		CC_BREAK_IF(! CCLayerColor::initWithColor( ccc4(255,255,255,255) ) );
+		CC_BREAK_IF(! CCLayerColor::initWithColor( ccc4(0,255,255,255) ) );
 
 		CCMenuItemImage *pCloseItem = CCMenuItemImage::create(
                                                             "CloseNormal.png",
